@@ -10,8 +10,7 @@ module.exports = function () {
         autoParse: true, // content-type detect -> json
         verbose: false,
         useProxy: false,
-        proxy: 'localhost:9050',
-        proxyType: Curl.proxy.SOCKS5_HOSTNAME
+        proxy: 'localhost:9050'
     };
 
     this.libcurl = Curl;
